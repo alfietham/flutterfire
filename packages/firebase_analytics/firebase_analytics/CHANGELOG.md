@@ -1,3 +1,7 @@
+## 6.0.1
+
+* Updated Android's `logEvent` implementation so it supports `parameters` values of type `List<Map<String, dynamic>>` like the iOS implementation
+
 ## 6.0.0
 
 * Firebase iOS SDK versions are now locked to use the same version defined in
