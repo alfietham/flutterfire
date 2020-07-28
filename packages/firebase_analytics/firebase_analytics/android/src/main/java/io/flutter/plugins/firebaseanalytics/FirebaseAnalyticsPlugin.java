@@ -202,6 +202,8 @@ public class FirebaseAnalyticsPlugin implements MethodCallHandler, FlutterPlugin
         }
 
         bundle.putParcelableArrayList(key, list);
+      } else if (value instanceof Map) {
+        bundle.putParcelable(key, createBundleFromMap((Map<String, Object>) value));
       } else {
         throw new IllegalArgumentException(
             "Unsupported value type: " + value.getClass().getCanonicalName());

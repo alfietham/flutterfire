@@ -1,6 +1,6 @@
 ## 6.0.1
 
-* Updated Android's `logEvent` implementation so it supports `parameters` values of type `List<Map<String, dynamic>>` like the iOS implementation
+* Updated Android's `logEvent` implementation so it supports `parameters` values of type `List<Map<String, dynamic>>` (like the iOS implementation), and type `Map`
 
 ## 6.0.0
 
